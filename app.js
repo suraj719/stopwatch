@@ -13,6 +13,7 @@ function incre() {
     time += 0.01
 }
 function stop() {
+    timer.innerHTML=time.toFixed(2) + "secs"
     clearInterval(timerstart);
 }
 function reset() {
